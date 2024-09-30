@@ -1,0 +1,63 @@
+/* styles.css */
+h1, h2, h3, h4, h5, h6 {
+    color: green; 
+    text-align: center;
+}
+
+body {
+    background-color: rgb(229, 229, 229); 
+}
+
+.logo {
+    position: fixed; 
+    top: 20px; 
+    left: 20px; 
+    width: 100px; 
+    height: auto; 
+}
+
+.about-container {
+    max-width: 800px; 
+    margin: 0 auto;   
+    padding: 20px;  
+    text-align: center; 
+}
+
+a:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}
+
+.contact-page {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZcLar8yU3kOjN0v8le6bJIjhJ7R7riYFyw&s); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    padding: 20px;
+    min-height: 100vh; 
+}
+
+.contact-text {
+    text-align: center; 
+    font-size: 35px; 
+    color: white; 
+    margin: 20px; 
+}
+
+.center {
+    text-align: center;
+    height: auto;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: green; 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
